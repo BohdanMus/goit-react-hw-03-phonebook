@@ -16,7 +16,7 @@ li {
   text-decoration: none;
   color: inherit;
   display: flex;
-  align-items: center;
+  align-items: baseline;
   margin: 16px 0px;
 }
 
@@ -54,17 +54,23 @@ body {
     padding: 50px;
 }
 button {
-  background-color: green;
+  margin: 8px;
+  padding: 8px 8px;
+  border: none;
   border-radius: 16px;
   color: white;
-  padding: 2px 8px;
-  margin: 8px;
-  font-size: 16px;
-  display: flex;
+  font-size: inherit;
+  background-color: green;
+  display: inline-flex;
+  align-items: center;
   justify-content: center;
+  :hover {background: #239B56}
   }
 input {
   padding: 4px; 
   margin: 8px 0px;
+}
+span {
+  font-weight: 600;
 }
 `;
